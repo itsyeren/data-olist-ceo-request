@@ -1,22 +1,22 @@
-🏋️‍♀️ CEO’muzun isteğini cevaplama zamanı!
+🏋️‍♀️ Time to answer our CEO's request!
 
 ## Problem
 
->❓ Olist, aşağıdakilere sahip olduğunu göz önünde bulundurduğunda, kârını artırmak için kaç tane düşük performans gösteren seller’ı sistemden çıkarmalıdır?
-> - seller başına aylık bazı revenues
-> - order başına bazı revenues
-> - kötü review’lar başına (tahmini) bazı reputation costs
-> - order item sayısıyla artan fakat lineer olmayan (scale effects) IT system operational costs
+>❓ Considering that Olist has the following, how many low-performing sellers should it remove from the system to increase its profit?
+> - Some monthly revenue per seller
+> - Some revenue per order
+> - Some (estimated) reputation costs per bad review
+> - IT system operational costs that increase with the number of order items but are non-linear (scale effects)
 
 <details>
   <summary markdown='span'>💡 Hints</summary>
-- Önce her order’ın review cost’unu hesaplayıp, daha sonra bu cost’ları seller bazında toplamayı isteyebilirsiniz.
+- You may want to first calculate the review cost per order and then sum these costs per seller.
 </details>
 
-## ✏️ Sıra sizde!
+## ✏️ Your turn!
 
-👉 **`CEO_request.ipynb` notebook’unu açın ve oradan başlayın.**
+👉 **Open the **CEO_request.ipynb** notebook and start there.**
 
-- Yeni bir Notebook ile başlayacağız
-- Önceki notebook’ları yeniden kullanmayın – onlar yalnızca inceleme amacıyla hazırlanmıştı
-- Yeniden kullanılabilir tüm logic’iniz `olist/*.py` script’lerinde kodlanmış durumda
+- We will start with a new Notebook
+- Do not reuse previous notebooks – they were prepared for review purposes only
+- All your reusable logic is coded in the **olist/*.py** scripts
